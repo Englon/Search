@@ -1,0 +1,34 @@
+
+body{
+  text-align: center;
+}
+.links {
+  display: flex;
+  justify-content: right;
+  margin: 10px; 
+}
+a {
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+img {
+  margin-top: 80px;
+  max-width: 25%;
+}
+.input{
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: thin solid bisque;
+  min-width: 500px;
+}
+.button {
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: thin solid bisque;
+  min-width: 200px;
+}
+.button:hover {
+  box-shadow: 2px 2px 2px 1px bisque;
+}

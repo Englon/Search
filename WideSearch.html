@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>Google Search</title>
+	    <link rel="stylesheet" href="search.css">
+    </head>
+    <body>
+        <div class="links">
+            <a href="index.html">На головну</a>
+        </div>
+        <div>
+            <img src="google.jpg" alt="logo">
+        </div>
+        <form action="https://google.com/search">
+            <label for="all-words">Всі слова:</label>    
+            <input class="input" id="all-words" type="text" name="as_q">
+            <br><br>
+            <label for="one-word">Одне слово:</label>          
+            <input class="input" id="one-word" type="text" name="as_epq">
+            <br><br>
+            <label for="anyone-word">Будь-яке зі слів:</label>
+            <input class="input" id="anyone-word" type="text" name="as_oq">
+            <br><br>
+            <label for="none-word">Жодне зі слів:</label>   
+            <input class="input" id="none-word" type="text" name="as_eq">
+            <br><br>	
+            <input class="button" type="submit" value="Розширений пошук">
+        </form>
+    </body>
+</html>
