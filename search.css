@@ -20,15 +20,15 @@ img {
 .input{
   border-radius: 20px;
   padding: 10px 15px;
-  border: thin solid bisque;
+  border: thin solid brown;
   min-width: 500px;
 }
 .button {
   border-radius: 20px;
   padding: 10px 15px;
-  border: thin solid bisque;
+  border: thin solid brown;
   min-width: 200px;
 }
 .button:hover {
-  box-shadow: 2px 2px 2px 1px bisque;
+  box-shadow: 2px 2px 2px 1px brown;
 }
